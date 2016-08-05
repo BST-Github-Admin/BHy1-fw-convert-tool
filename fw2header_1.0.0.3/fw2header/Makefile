@@ -15,7 +15,7 @@ $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-	@rm $(OBJECTS) $(EXECUTABLE)
+	@rm -rf $(OBJECTS) $(EXECUTABLE)
 
 .PHONY: clean
 
